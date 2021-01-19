@@ -7,6 +7,8 @@ import { CTA } from "../components/CTA";
 import { NavBar } from "../components/NavBar";
 
 import { newContextComponents } from "@drizzle/react-components";
+// TODO: Make these types
+// @ts-ignore
 import { drizzleReactHooks } from "@drizzle/react-plugin";
 
 const { useDrizzle, useDrizzleState } = drizzleReactHooks;
@@ -43,7 +45,6 @@ const Index = () => {
           />
         </Box>
       </Main>
-
       <CTA />
     </Container>
   );
