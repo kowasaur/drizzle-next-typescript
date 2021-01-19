@@ -1,3 +1,5 @@
+_**Note:** this is currently not any actual truffle box. You can not use `truffle unbox` to download it_
+
 # Drizzle, Next, Typescript and Chakra UI Truffle Box
 
 This also includes:
@@ -12,11 +14,20 @@ The greeter contract is live on xDai and viewable [here](https://kowasaur.github
 
 ## Setup
 
+<!-- TODO: apply for this to be an actual box
 1. `truffle unbox kowasaur/drizzle-next-typescript`
 2. Create a `.env` file in the root directory and write `MNEMONIC=YOUR MNEMONIC HERE`
    - For example, `MNEMONIC=word1 word2 word3 word4 you get the point`
    - This is only necessary if you are deploying to a non-local network
-3. Change the package.json name to your repo name and the author name to your github username
+3. Change the package.json name to your repo name and the author name to your github username -->
+
+1. Press the green **Use this template** button (next to the code download button) and create a repository
+2. Download your repository onto your computer
+3. Run `npm install`
+4. Create a `.env` file in the root directory and write `MNEMONIC=YOUR MNEMONIC HERE`
+   - For example, `MNEMONIC=word1 word2 word3 word4 you get the point`
+   - This is only necessary if you are deploying to a non-local network
+5. Change the package.json name to your repo name and the author name to your github username
 
 If you want to run the app, setup Ganache and run the following:
 
