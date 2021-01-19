@@ -28,3 +28,4 @@ This is everything I did to get this setup
 8. Changed/added a bunch of the default example files
 9. `npm install @truffle/hdwallet-provider dotenv`
 10. Add xDai support
+11. `npm i gh-pages`
