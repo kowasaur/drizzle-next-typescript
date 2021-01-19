@@ -26,3 +26,5 @@ This is everything I did to get this setup
 6. `npm install --save-dev prettier prettier-plugin-solidity`
 7. `npm install @drizzle/store @drizzle/react-plugin @drizzle/react-components`
 8. Changed/added a bunch of the default example files
+9. `npm install @truffle/hdwallet-provider dotenv`
+10. Add xDai support

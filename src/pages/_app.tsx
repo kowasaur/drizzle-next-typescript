@@ -4,6 +4,7 @@ import theme from "../theme";
 import { AppProps } from "next/app";
 
 import { Drizzle, IDrizzleOptions } from "@drizzle/store";
+// @ts-ignore
 import { drizzleReactHooks } from "@drizzle/react-plugin";
 import { IContract } from "@drizzle/store/types/IContract";
 import { LoadingContainer } from "../components/LoadingContainer";

@@ -1,4 +1,5 @@
 import React from "react";
+// @ts-ignore
 import { drizzleReactHooks } from "@drizzle/react-plugin";
 import { Hero } from "./Hero";
 

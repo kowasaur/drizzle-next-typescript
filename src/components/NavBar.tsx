@@ -1,6 +1,7 @@
 import { Flex, Text, useColorMode } from "@chakra-ui/react";
 import React from "react";
 import { DarkModeSwitch } from "./DarkModeSwitch";
+// @ts-ignore
 import { drizzleReactHooks } from "@drizzle/react-plugin";
 
 const { useDrizzleState } = drizzleReactHooks;
