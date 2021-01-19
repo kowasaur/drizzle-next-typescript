@@ -1,16 +1,29 @@
 # Drizzle, Next, Typescript and Chakra UI Truffle Box
 
-This also includes prettier support for solidity and a greeter contract.
+This also includes:
+
+- Prettier support for solidity
+- gh-pages
+- @drizzle/react-components types
+- xDai and Ganache support
+- Example greeter contract
+
+The greeter contract is live on xDai and viewable [here](https://kowasaur.github.io/drizzle-next-typescript/)
 
 ## Setup
 
-<!-- TODO: truffle ubox command -->
+1. `truffle unbox kowasaur/drizzle-next-typescript`
+2. Create a `.env` file in the root directory and write `MNEMONIC=YOUR MNEMONIC HERE`
+   - For example, `MNEMONIC=word1 word2 word3 word4 you get the point`
+   - This is only necessary if you are deploying to a non-local network
+3. Change the package.json name to your repo name and the author name to your github username
 
-Run the following:
-`npm install`
-`truffle compile`
-`truffle migrate`
-`npm run dev`
+If you want to run the app, setup Ganache and run the following:
+
+1. `truffle migrate`
+2. `npm run dev`
+
+Then go to localhost:3000 in your browser
 
 ## How This Was Made
 
