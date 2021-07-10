@@ -1,4 +1,13 @@
-_**Note:** this is currently not any actual truffle box. You can not use `truffle unbox` to download it_
+# Please Don't Use This
+
+I made this when I was very new to blockchain development and programming in general.
+Drizzle sucks (imo) so instead I recommend [useDApp](https://usedapp.io/).
+I also recommend you look at [Hardhat](https://hardhat.org/) as an alternative to Truffle.
+I've kept this repository in case someone still wants to use it but mainly just since I don't like deleting things.
+
+---
+
+_**Note:** this is not an actual truffle box. You can not use `truffle unbox` to download it_
 
 # Drizzle, Next, Typescript and Chakra UI Truffle Box
 
